@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portofolio">
       <div className="min-h-screen bg-white dark:bg-gray-900">
         <Navbar />
         <main>
